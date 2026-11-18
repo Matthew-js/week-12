@@ -1,0 +1,13 @@
+{
+  "name": "toko-lab12",
+  "version": "1.2.0",
+  "description": "Lab 12 - Automated Testing & Monitoring API (pengembangan Lab 11)",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/api.test.js",
+    "monitor": "node monitor.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
